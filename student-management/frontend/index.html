@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Add Student</h2>
+
+    <div class="form-container">
+        <input id="name" placeholder="Name">
+        <input id="email" placeholder="Email">
+        <input id="course" placeholder="Course">
+        <input id="phone" placeholder="Phone">
+        <button onclick="addStudent()">Add</button>
+    </div>
+
+    <h2>Student List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Course</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="students"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
